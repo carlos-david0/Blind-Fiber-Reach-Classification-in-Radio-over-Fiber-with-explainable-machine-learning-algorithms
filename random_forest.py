@@ -3,7 +3,7 @@ import pandas as pd
 import sklearn.model_selection
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.inspection import permutation_importance
-from sklearn.preprocessing import StandardScaler, label_binarize
+from sklearn.preprocessing import MinMaxScaler, label_binarize
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
